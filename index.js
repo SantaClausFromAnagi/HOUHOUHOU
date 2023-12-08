@@ -10,7 +10,9 @@ card.addEventListener("click", ()=>{
     if(tr == false){
         card.className += "flip-horizontal-bottom";
         greeting.style.display = "none";
-        cardBody.style.display = "flex";
+        setTimeout(()=>{
+            cardBody.style.display = "flex";
+        }, 150)
         tr = true;
     }else{
         // card.className += "flip-horizontal-bottom";
