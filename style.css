@@ -7,6 +7,7 @@ body{
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
   filter: drop-shadow(0 0 10px white);
+  font-family: 'Noto Serif Georgian', serif;
 }
 
 .card {
@@ -26,6 +27,7 @@ body{
 .greeting {
     color: #036f3e;
     margin: auto;
+    text-align: center;
 }
 
 
@@ -58,6 +60,13 @@ body{
     bottom: 30%;
     left: 2em;
     font-size: 16px;
+}
+
+
+.material-symbols-outlined {
+  margin-top: 50px;
+  border-radius: 50%;
+  transform: scale(2);
 }
 
 
